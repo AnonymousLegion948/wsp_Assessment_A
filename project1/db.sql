@@ -15,3 +15,5 @@ CREATE TABLE todo(
     user_id INTEGER,
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
+
+INSERT INTO users (name,password) VALUES ('jason@tecky.io', '1234')
