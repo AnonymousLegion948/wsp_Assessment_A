@@ -33,4 +33,5 @@ window.onload = async () => {
       }
     });
   }
-  
+  let hello = 123
+  console.log (hello) 
